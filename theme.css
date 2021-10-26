@@ -1,0 +1,116 @@
+/* @theme my-theme */
+
+@import 'default';
+
+table {
+  font-size: 23px;
+}
+
+small {
+  font-size: 20px;
+}
+
+.smallFont {
+  font-size: 18px;
+}
+
+.title {
+  text-align: left !important;
+}
+
+.cell {
+  border-right: 1px solid #ffffff;
+  border-left: 1px solid #ffffff;
+  background-color: #FFFFFF;
+  text-align: right;
+  font-weight: 400;
+}
+
+.line {
+  border-bottom: 2px solid #f90083;
+}
+
+.head {
+  background-color: #f90083;
+  border-right: 1px solid #f90083;
+  border-left: 1px solid #f90083;
+  border-bottom: 2px solid #ffffff;
+  color: #FFFFFF;
+}
+
+.foot {
+  background-color: #f90083;
+  color: #ffffff;
+  font-weight: bold;
+  border-right: 1px solid #f90083;
+  border-left: 1px solid #f90083;
+  border-bottom: 2px solid #ffffff;
+  text-align: right;
+}
+
+.pink {
+  color: #f90083;
+  margin-bottom: 0;
+
+}
+
+.footnote-text {
+  font-size: 22px;
+}
+
+.footnotes-sep {
+  margin-bottom: 15px;
+  margin-top: 0px;
+}
+
+/* Add "Page" prefix and total page number */
+section::after {
+  color: #333;
+  content: attr(data-marpit-pagination) ' / ' attr(data-marpit-pagination-total);
+}
+
+.box {
+
+  padding: 15px;
+
+  border: 4px solid #f90083;
+  border-radius: 10px;
+  
+  font-size: 22px;
+}
+
+.image-position {
+
+  margin-top: 350px;
+
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.image-props {
+  align-items: center;
+}
+
+
+
+.table2 {
+  font-size: 18px;
+}
+
+th div {
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+}
+
+th div span {
+  margin-left: 10px;
+  font-weight: 400;
+}
+
+th span {
+  font-weight: 400;
+}
